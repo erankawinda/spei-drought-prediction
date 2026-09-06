@@ -6,11 +6,9 @@ work on recurrent neural networks for meteorological drought prediction.
 
 ## Current status
 
-This repository is a research prototype under methodological revision. Earlier
-versions fitted preprocessing on the full series, evaluated a Random Forest on
-observations used for fitting, reused the LSTM holdout for model selection, and
-combined predictions that were not aligned by date. Those earlier metrics are
-not valid out-of-sample evidence and should not be cited.
+This repository contains a revised, leakage-aware research prototype. Results
+from earlier exploratory versions are not reported because they were not
+generated with the fully held-out temporal protocol now used.
 
 The current script defines an explicit task: use information available at month
 `t` to predict SPEI at month `t+1`. It uses chronological train, validation, and
