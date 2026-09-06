@@ -40,7 +40,9 @@ def event_metrics(y_true, y_pred, threshold: float, prefix: str) -> dict[str, fl
     true_negative = int(np.sum(~observed & ~predicted))
     precision = _safe_divide(true_positive, true_positive + false_positive)
     recall = _safe_divide(true_positive, true_positive + false_negative)
-    f1 = _safe_divide(2 * precision * recall, precision + recall)
+    f1 = _safe_divide(
+        2 * true_positive, 2 * true_positive + false_positive + false_negative
+    )
     specificity = _safe_divide(true_negative, true_negative + false_positive)
     balanced_accuracy = (
         float((recall + specificity) / 2)
@@ -84,7 +86,9 @@ def alert_metrics(
     precision = divide(true_positive, true_positive + false_positive)
     recall = divide(true_positive, true_positive + false_negative)
     specificity = divide(true_negative, true_negative + false_positive)
-    f1 = divide(2 * precision * recall, precision + recall)
+    f1 = divide(
+        2 * true_positive, 2 * true_positive + false_positive + false_negative
+    )
     return {
         "observed_threshold": float(observed_threshold),
         "decision_threshold": float(decision_threshold),
