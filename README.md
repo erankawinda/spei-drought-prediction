@@ -4,6 +4,10 @@ A reproducible scientific machine-learning benchmark for predicting the next
 month's Standardized Precipitation Evapotranspiration Index (SPEI) at three Sri
 Lankan locations.
 
+SPEI describes how wet or dry conditions are; lower values mean drier conditions.
+SPEI-3 and SPEI-6 summarize three- and six-month periods. Both are predicted one
+month ahead in this project.
+
 This is a methodological rebuild of my 2021 undergraduate drought project. I do
 not treat the earlier exploratory neural-network results as evidence here.
 Instead, this repository asks one narrow question and tests it against simple
@@ -19,6 +23,13 @@ The primary analysis is a nested rolling-origin evaluation on a common panel of
 earlier five-year blocks, refitted at each outer origin, and then held fixed for
 the following five-year block. All station-level comparisons use the same target
 dates.
+
+**How to read the table:** MAE is mean absolute error; lower is better.
+Persistence predicts the latest observed SPEI value again next month. Ridge is
+linear regression with a penalty that limits the size of its coefficients.
+Drought F1 balances missed droughts and false alerts; higher is better. Here,
+a drought month has SPEI at or below -1.0. Scores are averaged equally across
+the three stations.
 
 | Target | Selected model | Model MAE | Persistence MAE | MAE improvement | Paired 95% interval* | Drought F1 (model / persistence) |
 |---|---|---:|---:|---:|---:|---:|
@@ -61,6 +72,9 @@ used, and preprocessing is fitted inside each training-only pipeline.
 
 The exact tested environment is Python 3.13.0 with NumPy 2.2.6, pandas 2.2.3,
 scikit-learn 1.6.1, and pytest 8.4.2. Python 3.11-3.13 is supported.
+
+The three input CSV files are included. No separate data download or GPU is
+required. Start with validation and tests before running the full analysis.
 
 ```bash
 git clone https://github.com/erankawinda/spei-drought-prediction.git

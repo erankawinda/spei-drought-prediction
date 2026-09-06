@@ -1,0 +1,1202 @@
+{
+  "changed_cells": [
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 5,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Buttala",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 6,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 23,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Buttala",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 24,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 25,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 29,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Buttala",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 30,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Padaviya",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 31,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Tissamaharama",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 44,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "station": "Buttala",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 46,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "station": "Tissamaharama",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 47,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Buttala",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 48,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Padaviya",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 49,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Tissamaharama",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 5,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Buttala",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 6,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 23,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Buttala",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 24,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 25,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 29,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Buttala",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 30,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Padaviya",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 31,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "station": "Tissamaharama",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 44,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "station": "Buttala",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 45,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "station": "Padaviya",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 46,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "station": "Tissamaharama",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 47,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Buttala",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 48,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Padaviya",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 49,
+      "file": "results/benchmark_v1/metrics_by_task.csv",
+      "key": {
+        "model": "zero",
+        "station": "Tissamaharama",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 8,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 15,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 16,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.037037037037037035",
+      "before": "0.11111111111111112",
+      "column": "drought_f1",
+      "csv_line": 17,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 8,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 15,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 16,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 17,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "drought_f1_valid_station_count",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "drought_f1_valid_station_count",
+      "csv_line": 8,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "drought_f1_valid_station_count",
+      "csv_line": 15,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "drought_f1_valid_station_count",
+      "csv_line": 16,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "3",
+      "before": "1",
+      "column": "drought_f1_valid_station_count",
+      "csv_line": 17,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 8,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 15,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 16,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 17,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "-0.5612958470101327",
+      "before": "",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "-0.5612958470101327",
+      "before": "",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 8,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "-0.6881488333847261",
+      "before": "",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 15,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "-0.6881488333847261",
+      "before": "",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 16,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "-0.6511117963476891",
+      "before": "-0.5770377222736149",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 17,
+      "file": "results/benchmark_v1/metrics_macro.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 8,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 15,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 16,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.037037037037037035",
+      "before": "0.11111111111111112",
+      "column": "drought_f1",
+      "csv_line": 17,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "-0.5612958470101327",
+      "before": "",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 7,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "-0.5612958470101327",
+      "before": "",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 8,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "-0.6881488333847261",
+      "before": "",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 15,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "zero",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "-0.6881488333847261",
+      "before": "",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 16,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "monthly_climatology",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "-0.6511117963476891",
+      "before": "-0.5770377222736149",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 17,
+      "file": "results/benchmark_v1/acceptance.csv",
+      "key": {
+        "model": "seasonal_persistence",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "drought_f1",
+      "csv_line": 18,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 2,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2000-01_2004-12",
+        "station": "Buttala",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 4,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2000-01_2004-12",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 6,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2000-01_2004-12",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 9,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2000-01_2004-12",
+        "station": "Padaviya",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 14,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2005-01_2009-12",
+        "station": "Buttala",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 15,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2005-01_2009-12",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 16,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2005-01_2009-12",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 17,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "station": "Buttala",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 18,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 19,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 29,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2010-01_2014-12",
+        "station": "Buttala",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 30,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2010-01_2014-12",
+        "station": "Padaviya",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 31,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2010-01_2014-12",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 43,
+      "file": "results/robustness_v1/rolling_metrics_by_fold_and_station.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2015-01_2019-12",
+        "station": "Tissamaharama",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.1623931623931624",
+      "before": "0.2435897435897436",
+      "column": "drought_f1",
+      "csv_line": 6,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.38888888888888884",
+      "before": "0.5833333333333333",
+      "column": "severe_f1",
+      "csv_line": 2,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2000-01_2004-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.06666666666666667",
+      "before": "0.20000000000000004",
+      "column": "severe_f1",
+      "csv_line": 3,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2000-01_2004-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.2833333333333333",
+      "before": "0.425",
+      "column": "severe_f1",
+      "csv_line": 5,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2000-01_2004-12",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 6,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 7,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2005-01_2009-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.0",
+      "before": "",
+      "column": "severe_f1",
+      "csv_line": 10,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2010-01_2014-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "0.3",
+      "before": "0.45",
+      "column": "severe_f1",
+      "csv_line": 14,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2015-01_2019-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "2",
+      "column": "drought_f1_valid_station_count",
+      "csv_line": 6,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "2",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 2,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2000-01_2004-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "1",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 3,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2000-01_2004-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "2",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 5,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2000-01_2004-12",
+        "target": "spei6"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 6,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 7,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "persistence",
+        "outer_fold": "2005-01_2009-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "0",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 10,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2010-01_2014-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "3",
+      "before": "2",
+      "column": "severe_f1_valid_station_count",
+      "csv_line": 14,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2015-01_2019-12",
+        "target": "spei3"
+      }
+    },
+    {
+      "after": "-0.38046398046398044",
+      "before": "-0.2992673992673992",
+      "column": "drought_f1_change_vs_persistence",
+      "csv_line": 6,
+      "file": "results/robustness_v1/rolling_metrics_by_fold.csv",
+      "key": {
+        "model": "ridge_ar24",
+        "outer_fold": "2005-01_2009-12",
+        "target": "spei3"
+      }
+    }
+  ],
+  "correction": "event_f1_zero_true_positive_v1",
+  "formula": "2 * TP / (2 * TP + FP + FN); undefined only for zero denominator",
+  "fresh_locked_test": false,
+  "generated_utc": "2026-09-06T10:59:40.218987+00:00",
+  "git_head": "2fb9e8c1b05175434037d4a1d6656f81e8e854f9",
+  "git_status_porcelain": [
+    " M README.md",
+    " M results/README.md",
+    " M src/spei_forecast/metrics.py",
+    " M tests/test_models_and_metrics.py",
+    "?? scripts/"
+  ],
+  "implementation_files_sha256": {
+    "pyproject.toml": "779aa3c45532f248fda0f4936deadc522641e6b12c949f2c91d900da5133e185",
+    "requirements-dev.txt": "3c3ad6730cf0c0417b77bae38e53c11fa8cd96a34f2f8956998bafc0aaf3ef17",
+    "requirements.txt": "f598097310bcdb0ceaba17b7e5f877514690bf034da37d9d864ab8d791a79102",
+    "src/spei_forecast/__init__.py": "1a4e8dd3ee54cb7cbb05daad01e7d83009fc54f7785e01f9d9ed97a60f956149",
+    "src/spei_forecast/__main__.py": "0f7d54f3fbb1f79a85eb8110f11793db99da6f3c61ee979de5abe9a1b5f3fdb3",
+    "src/spei_forecast/bootstrap.py": "c026e6c99c8a7d249b352144ad8e679513af88e08af2701181b722160dc68f2b",
+    "src/spei_forecast/cli.py": "8a0da3513dd8a3e1fd0a140c57376be4c057b0e0b3b88c87228225610c389379",
+    "src/spei_forecast/config.py": "e4155071b390334801a8ada5b868d051509a9376c9a0a4751433c9f597fbaf4c",
+    "src/spei_forecast/data.py": "5750c757e77fef9e86732553002de0d7482e522f69acb9b5a44190a0cf6cad04",
+    "src/spei_forecast/experiment.py": "154b1c0bf27f56aa105011301923c5462edc9404021c1817fb059be7dbe5a044",
+    "src/spei_forecast/features.py": "df58d1e4b3db47b9b4c4d1d73128d94d627276cb2c557b1fd4c722fc17859c61",
+    "src/spei_forecast/metrics.py": "58bf94eeab625d44ba356da0e835e96b697722a5730acb2e895a3d1971afb00b",
+    "src/spei_forecast/models.py": "5b82b18d2303f9099d8844df922c0dec923e29949725e4de2b11e071bcf9153d",
+    "src/spei_forecast/provenance.py": "6e66e6b99e08c0b7444f4424b32ac0fd06ff5e15a3f741bf2ffee1c9cd30224a",
+    "src/spei_forecast/robustness.py": "59bd7b95e7e323ba1854c11411bb52f8288ccaf881528005203545d9c7a46f49",
+    "src/spei_forecast/rolling.py": "eec9ece11a273e7bb9e8c62b1954ccd69820d8725ab140355cd55ce0780e4489",
+    "src/spei_forecast/splits.py": "fcc4a9b0057ad52dea5086b278bb56a2caaab698173c76a83f418d3b5b6558a2"
+  },
+  "input_files_sha256": {
+    "configs/benchmark_v1.toml": "64a19ebd133defd917949ba453b975f147bfab5dfe14c0c8d8fcddb1b00c6c29",
+    "data/processed/legacy/Buttala_speiall.csv": "b2646f772f521e270d6f47e593ac70653d56548fcfca932058609b153b4f0061",
+    "data/processed/legacy/Padaviya_speiall.csv": "f82b2efb1c9d56a73b0b87f59adbcc1f4801810c0db96bee35f46280e539c337",
+    "data/processed/legacy/Tissamaharama_speiall.csv": "dabfe80857c0bd35da7f83f6a49b3a2b6295a6c2392aa4b33ebb0d347116a254",
+    "results/benchmark_v1/acceptance.csv": "908edbfd83ac6bd74308844a7e33fdcfe27b789ec515d0c6a9f48082e333884d",
+    "results/benchmark_v1/bootstrap_intervals.csv": "da93b7c8384a29541ccad804a5d49b7431520a3781c6258072d349aaa94cfa2a",
+    "results/benchmark_v1/manifest.json": "fdc8bec6869e9bb3e94369d5a2805e260674d86c29eb2243cafd64a1de4f539e",
+    "results/benchmark_v1/metrics_by_task.csv": "69b74a16396dab927479261518e5e0706a6a4de2c3f1cdddbd539cfb929a412b",
+    "results/benchmark_v1/metrics_macro.csv": "df4544fc18b42a7705ff695dc1ff2dfad79767c0529ab63a8c9a7ea55e5054c1",
+    "results/benchmark_v1/selection.json": "c6fc0cc3aaa483aa3ed11e633ca06c9df424d3d522a74de0a3f79ca38d0a2dc2",
+    "results/robustness_v1/manifest.json": "e61e4b75233100ecfc97251b945986890a3dfb05067a5e7eba4bbacfbd467f0d",
+    "results/robustness_v1/rolling_metrics_by_fold.csv": "f68335f347aa59a858fa5d5de3e543bda3444c8e543ac2a63ef552440897814a",
+    "results/robustness_v1/rolling_metrics_by_fold_and_station.csv": "b6f1292f1fa5cc9b36d7cc137e0510b25789ac9c93577ac8b8c14467d94be0e4",
+    "results/robustness_v1/rolling_metrics_by_task.csv": "1462f92cb6bbfba1e049e4d6d5b51a526ea7f333078336ca85b186c230f047c7",
+    "results/robustness_v1/rolling_metrics_macro.csv": "02c7d894a468f8d1d75319a6d4d24972742311b9ed1455735a783d68e5e6b016",
+    "results/robustness_v1/rolling_predictions.csv": "84bda29d5c61c0cb84e7527190a8c96740a8b9e39441d5d87ff2ee86d18a231f"
+  },
+  "method": "Rescore saved rolling predictions; refit saved fixed-benchmark settings without model selection; reuse MAE bootstrap intervals after verifying every non-F1 metric matches.",
+  "original_run_manifests_preserved": true,
+  "output_files_sha256": {
+    "benchmark_predictions.csv": "a0254ded96f3118203bd9aabda469a8b9129f974c7dc99a2cd295bd89ec826ce",
+    "benchmark_v1/acceptance.csv": "5e71ef898fde1829b4beec109c96e65b836e637207d011099e1e6ad28c683f46",
+    "benchmark_v1/metrics_by_task.csv": "23eca90d399687f85fbcd11453cd2735ceeacc68f38cc72704f76d4b93a74952",
+    "benchmark_v1/metrics_macro.csv": "3ccde798fb515b1e6a5f46c8811f054857705c72a4e2ccc266b9e0c948a5f1a0",
+    "robustness_v1/rolling_metrics_by_fold.csv": "4a176ef2d7d6ae7073d20d18e50bf1f0bb655491130a1f7ce1fb0bfcf86e3e53",
+    "robustness_v1/rolling_metrics_by_fold_and_station.csv": "08792fd916efa6db959c7fb6625d0cbe7c31d274e9b41ab844589e558eb9dcdd"
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  },
+  "python": "3.13.0",
+  "script_sha256": "4e0184f443e131bcc8a8258decfd7066a4d5e3133c64a9faf525f9732cc62937"
+}

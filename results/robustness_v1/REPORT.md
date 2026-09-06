@@ -2,13 +2,13 @@
 
 First run: 13 August 2026
 
-Independent repository reproduction: 6 September 2026
+Repository reproduction: 6 September 2026
 
 Evidence status: **retrospective robustness**
 
 Evaluation period: 2000-01 through 2019-12, previously inspected
 
-## Bottom line
+## Main finding
 
 The regression improvement is internally stable in this retrospective three-station analysis for both targets, but the event-detection claim must differ by target.
 
@@ -26,7 +26,14 @@ These are not independent confirmation results because model choice and the eval
 
 The four evaluation blocks were 2000–2004, 2005–2009, 2010–2014 and 2015–2019. Ridge alpha was chosen from the three preceding five-year inner validation blocks at every outer origin. Model coefficients were refitted at the outer origin and frozen for five years, while each monthly forecast used observations available through its own issue date.
 
-SPEI-3 MAE skill by fold was 16.1%, 11.5%, 14.4% and 18.0%. SPEI-6 skill was 30.3%, 29.3%, 14.8% and 17.7%. SPEI-3 drought F1 was unstable: its change relative to persistence was +0.109, -0.299, -0.013 and +0.047 across the same folds. SPEI-6 had no severe events in 2005–2009, so severe-event conclusions must not be inferred from that fold.
+SPEI-3 MAE skill by fold was 16.1%, 11.5%, 14.4% and 18.0%. SPEI-6 skill was 30.3%, 29.3%, 14.8% and 17.7%. SPEI-3 drought F1 was unstable: its change relative to persistence was +0.109, -0.380, -0.013 and +0.047 across the same folds. SPEI-6 had no severe events in 2005–2009, so severe-event conclusions must not be inferred from that fold.
+
+The [event-F1 correction](../event_f1_correction_v1/README.md) on 6 September
+2026 changed SPEI-3 drought F1 in 2005–2009 from 0.244 to 0.162. A station with
+no correctly predicted droughts had previously been omitted from the average
+instead of receiving zero F1. The correction also updates severe-event scores
+in the fold tables. Full-period headline scores and all MAE results are
+unchanged.
 
 ## Training-history sensitivity
 
@@ -87,4 +94,6 @@ The reviewed machine-readable summaries and portable manifest are committed in
 this directory. A reproduction run writes the complete dated prediction panels
 under the ignored `artifacts/` directory. The manifest binds the source data,
 resolved configurations, exact implementation files, software versions, and
-SHA-256 digest of that complete rolling prediction panel.
+SHA-256 digest of that complete rolling prediction panel. The original run
+manifest is retained; the separate correction manifest binds the later metric
+code and corrected fold summaries.

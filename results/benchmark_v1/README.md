@@ -10,6 +10,12 @@ period is now a consumed retrospective evaluation rather than an untouched
 test. The rolling result reported in the repository README is under
 `../robustness_v1/`.
 
+Event F1 summaries were corrected on 6 September 2026 so a model that misses
+every event receives zero F1, rather than a missing value. Model selection,
+regression scores, bootstrap intervals, and acceptance decisions are unchanged.
+The [correction record](../event_f1_correction_v1/README.md) preserves the
+original run manifest and documents the updated summaries.
+
 Files:
 
 - `metrics_by_task.csv`: model metrics for each target and station;

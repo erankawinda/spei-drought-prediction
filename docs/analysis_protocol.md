@@ -59,6 +59,12 @@ The nonlinear model uses no random time split and disables internal early stoppi
 
 The primary score is macro-average station MAE. RMSE, R-squared, Pearson correlation, drought-event precision/recall/F1/balanced accuracy and event support are also retained. Skill is reported relative to persistence.
 
+Event F1 is calculated directly from event counts as
+`2*TP / (2*TP + FP + FN)`. It is zero when events are observed or predicted but
+none are correct. It is undefined only when neither observed nor predicted
+events exist. Macro F1 includes zero scores and omits only undefined scores;
+the number of contributing stations is reported with each summary.
+
 Uncertainty uses synchronized paired circular moving-block resampling of test months across all stations. The primary block length is 12 months. A model clears the full initial gate only when it:
 
 - reduces macro-MAE by at least 5% relative to persistence;

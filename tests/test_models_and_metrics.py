@@ -2,7 +2,12 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from spei_forecast.metrics import alert_metrics, event_metrics, regression_metrics
+from spei_forecast.metrics import (
+    alert_metrics,
+    event_metrics,
+    metrics_table,
+    regression_metrics,
+)
 from spei_forecast.models import make_ridge, monthly_climatology_predictions
 
 
@@ -54,3 +59,49 @@ def test_alert_cutoff_does_not_redefine_observed_drought():
     assert result["predicted_support"] == 2
     assert result["true_positive"] == 1
     assert result["false_positive"] == 1
+
+
+@pytest.mark.parametrize(
+    "truth,prediction",
+    [
+        ([-2.0, 0.0], [0.0, 0.0]),  # All observed events missed.
+        ([0.0, 0.0], [-2.0, 0.0]),  # False alerts without observed events.
+        ([-2.0, 0.0], [0.0, -2.0]),  # Misses and false alerts together.
+    ],
+)
+def test_event_f1_is_zero_when_events_exist_but_none_are_correct(truth, prediction):
+    assert event_metrics(truth, prediction, -1.0, "drought")["drought_f1"] == 0.0
+    assert alert_metrics(truth, prediction, -1.0, -1.0)["f1"] == 0.0
+    # The configurable fallback applies only to a zero F1 denominator.
+    assert alert_metrics(truth, prediction, -1.0, -1.0, zero_division=1.0)["f1"] == 0.0
+
+
+def test_event_f1_is_undefined_only_when_no_events_are_observed_or_predicted():
+    truth, prediction = [0.0, 1.0], [0.5, 0.5]
+    assert np.isnan(event_metrics(truth, prediction, -1.0, "drought")["drought_f1"])
+    assert np.isnan(alert_metrics(truth, prediction, -1.0, -1.0)["f1"])
+    assert alert_metrics(truth, prediction, -1.0, -1.0, zero_division=0.0)["f1"] == 0.0
+
+
+def test_macro_event_f1_includes_failed_station_as_zero():
+    rows = []
+    for station, truth, prediction in [
+        ("perfect", [-2.0, 0.0], [-2.0, 0.0]),
+        ("missed", [-2.0, 0.0], [0.0, -2.0]),
+        ("no_events", [0.0, 0.0], [0.0, 0.0]),
+    ]:
+        for model in ["persistence", "candidate"]:
+            for observed, predicted in zip(truth, prediction):
+                rows.append(
+                    {
+                        "target": "spei3",
+                        "station": station,
+                        "model": model,
+                        "y_true": observed,
+                        "y_pred": predicted,
+                    }
+                )
+    by_task, macro = metrics_table(pd.DataFrame(rows))
+    assert by_task.loc[by_task["station"] == "missed", "drought_f1"].eq(0.0).all()
+    assert macro["drought_f1"].eq(0.5).all()
+    assert macro["drought_f1_valid_station_count"].eq(2).all()
