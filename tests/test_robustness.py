@@ -244,6 +244,9 @@ def test_end_to_end_manifest_disclaims_fresh_test(tmp_path):
     assert manifest["period_previously_inspected"] is True
     assert manifest["test_labels_used_for_threshold_selection"] is False
     assert manifest["upstream_model_selection_recomputed"] is True
+    assert len(manifest["git_commit"]) == 40
+    assert isinstance(manifest["git_worktree_dirty"], bool)
+    assert isinstance(manifest["git_status_porcelain"], list)
     assert len(manifest["implementation_files_sha256"]) >= 8
     assert len(manifest["resolved_config_sha256"]) == 64
     assert (output / "config_resolved.json").exists()

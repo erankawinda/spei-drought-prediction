@@ -7,6 +7,7 @@ from importlib.metadata import PackageNotFoundError, version
 import json
 from pathlib import Path
 import platform
+import subprocess
 import tomllib
 
 import numpy as np
@@ -171,10 +172,15 @@ def run_robustness(
     (output / "config_resolved.json").write_text(
         json.dumps(resolved_config, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
+    git_commit = _run_git(benchmark_config.repository_root, ["rev-parse", "HEAD"])
+    git_status = _run_git(benchmark_config.repository_root, ["status", "--porcelain"])
     manifest = {
         "analysis": "robustness_v1",
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "output_dir": _portable_path(output, benchmark_config.repository_root),
+        "git_commit": git_commit,
+        "git_worktree_dirty": bool(git_status),
+        "git_status_porcelain": git_status.splitlines(),
         "evidence_status": "retrospective_robustness",
         "period_previously_inspected": True,
         "fresh_locked_test": False,
@@ -1011,6 +1017,19 @@ def _portable_path(path: Path, repository_root: Path) -> str:
         return path.relative_to(repository_root).as_posix()
     except ValueError:
         return path.name
+
+
+def _run_git(root: Path, arguments: list[str]) -> str:
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(root), *arguments],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        return result.stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        return ""
 
 
 def _validate_benchmark_for_robustness(config):
