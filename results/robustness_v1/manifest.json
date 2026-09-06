@@ -1,0 +1,85 @@
+{
+  "analysis": "robustness_v1",
+  "benchmark_config_sha256": "64a19ebd133defd917949ba453b975f147bfab5dfe14c0c8d8fcddb1b00c6c29",
+  "bootstrap_block_months": [
+    6,
+    12,
+    24
+  ],
+  "evaluation_period": "2000-01/2019-12",
+  "event_decision_threshold_selected_on": "1985-01/1999-12 validation only",
+  "event_observed_threshold": -1.0,
+  "evidence_status": "retrospective_robustness",
+  "fresh_locked_test": false,
+  "generated_utc": "2026-09-06T06:39:16.043680+00:00",
+  "git_commit": "2e0e15e319cee2d3f3aec3096d66d76ca6d00666",
+  "git_status_porcelain": [],
+  "git_worktree_dirty": false,
+  "implementation_files_sha256": {
+    "pyproject.toml": "779aa3c45532f248fda0f4936deadc522641e6b12c949f2c91d900da5133e185",
+    "requirements-dev.txt": "3c3ad6730cf0c0417b77bae38e53c11fa8cd96a34f2f8956998bafc0aaf3ef17",
+    "requirements.txt": "f598097310bcdb0ceaba17b7e5f877514690bf034da37d9d864ab8d791a79102",
+    "src/spei_forecast/__init__.py": "1a4e8dd3ee54cb7cbb05daad01e7d83009fc54f7785e01f9d9ed97a60f956149",
+    "src/spei_forecast/__main__.py": "0f7d54f3fbb1f79a85eb8110f11793db99da6f3c61ee979de5abe9a1b5f3fdb3",
+    "src/spei_forecast/bootstrap.py": "c026e6c99c8a7d249b352144ad8e679513af88e08af2701181b722160dc68f2b",
+    "src/spei_forecast/cli.py": "8a0da3513dd8a3e1fd0a140c57376be4c057b0e0b3b88c87228225610c389379",
+    "src/spei_forecast/config.py": "e4155071b390334801a8ada5b868d051509a9376c9a0a4751433c9f597fbaf4c",
+    "src/spei_forecast/data.py": "5750c757e77fef9e86732553002de0d7482e522f69acb9b5a44190a0cf6cad04",
+    "src/spei_forecast/experiment.py": "154b1c0bf27f56aa105011301923c5462edc9404021c1817fb059be7dbe5a044",
+    "src/spei_forecast/features.py": "df58d1e4b3db47b9b4c4d1d73128d94d627276cb2c557b1fd4c722fc17859c61",
+    "src/spei_forecast/metrics.py": "e65d64114e53ac2f51d4ec42449eae6f0ee51b1665e162324732037fe786ecd0",
+    "src/spei_forecast/models.py": "5b82b18d2303f9099d8844df922c0dec923e29949725e4de2b11e071bcf9153d",
+    "src/spei_forecast/provenance.py": "6e66e6b99e08c0b7444f4424b32ac0fd06ff5e15a3f741bf2ffee1c9cd30224a",
+    "src/spei_forecast/robustness.py": "59bd7b95e7e323ba1854c11411bb52f8288ccaf881528005203545d9c7a46f49",
+    "src/spei_forecast/rolling.py": "eec9ece11a273e7bb9e8c62b1954ccd69820d8725ab140355cd55ce0780e4489",
+    "src/spei_forecast/splits.py": "fcc4a9b0057ad52dea5086b278bb56a2caaab698173c76a83f418d3b5b6558a2"
+  },
+  "new_model_family_added": false,
+  "output_dir": "artifacts/robustness_v1/final_2026-09-06",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  },
+  "period_previously_inspected": true,
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "primary_models": {
+    "spei3": "ridge_ar24",
+    "spei6": "ridge_ar24_met24"
+  },
+  "python": "3.13.0",
+  "resolved_config_sha256": "cc1a44759bd6b112a9151b196ca95f4ee4ac8f76ee05f67029fd83abc383dcc2",
+  "robustness_config_sha256": "05ef4c435fe2b4ff9ac2ba6c07f7868e71f696ce874e619048c3becdecf53776",
+  "rolling_outer_fold_count": 4,
+  "rolling_predictions_sha256": "84bda29d5c61c0cb84e7527190a8c96740a8b9e39441d5d87ff2ee86d18a231f",
+  "rolling_update_policy": "refit at each five-year outer origin; frozen within block",
+  "source_files": [
+    {
+      "path": "data/processed/legacy/Buttala_speiall.csv",
+      "rows": 1428,
+      "sha256": "b2646f772f521e270d6f47e593ac70653d56548fcfca932058609b153b4f0061",
+      "station": "Buttala"
+    },
+    {
+      "path": "data/processed/legacy/Padaviya_speiall.csv",
+      "rows": 1428,
+      "sha256": "f82b2efb1c9d56a73b0b87f59adbcc1f4801810c0db96bee35f46280e539c337",
+      "station": "Padaviya"
+    },
+    {
+      "path": "data/processed/legacy/Tissamaharama_speiall.csv",
+      "rows": 1428,
+      "sha256": "dabfe80857c0bd35da7f83f6a49b3a2b6295a6c2392aa4b33ebb0d347116a254",
+      "station": "Tissamaharama"
+    }
+  ],
+  "target_construction_limitation": "The recovered SPEI calibration/reference period is unknown; model fitting is temporally controlled, but target-construction leakage cannot be ruled out.",
+  "test_labels_used_for_threshold_selection": false,
+  "training_start_years": [
+    1901,
+    1951,
+    1971
+  ],
+  "upstream_model_selection_recomputed": true,
+  "upstream_model_selection_uses_test": false
+}
