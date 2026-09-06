@@ -10,8 +10,14 @@ __pycache__/
 .vscode/
 .DS_Store
 
-# Generated results
+# Generated derivatives and experiment runs
+artifacts/
+data/processed/clean/
 outputs/
 models/
 checkpoints/
 *.log
+
+# Test and coverage output
+.coverage
+htmlcov/

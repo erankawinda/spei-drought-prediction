@@ -1,0 +1,12 @@
+[robustness]
+training_start_years = [1901, 1951, 1971]
+bootstrap_block_months = [6, 12, 24]
+bootstrap_resamples = 5000
+event_threshold_min = -2.0
+event_threshold_max = 0.0
+event_threshold_step = 0.05
+rolling_outer_start = "2000-01"
+rolling_outer_end = "2019-12"
+rolling_outer_months = 60
+rolling_inner_months = 60
+rolling_inner_folds = 3

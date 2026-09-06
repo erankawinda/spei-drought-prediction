@@ -1,0 +1,13 @@
+target,model,metric,point_estimate,ci_2_5,ci_97_5,relative_improvement,resamples,block_months,outer_fold_bounded,passes_5pct_positive_ci_gate
+spei3,persistence,rolling_macro_mae_improvement_vs_persistence,0.0,0.0,0.0,0.0,5000,6,True,False
+spei3,persistence,rolling_macro_mae_improvement_vs_persistence,0.0,0.0,0.0,0.0,5000,12,True,False
+spei3,persistence,rolling_macro_mae_improvement_vs_persistence,0.0,0.0,0.0,0.0,5000,24,True,False
+spei3,ridge_ar24,rolling_macro_mae_improvement_vs_persistence,0.09600495967372757,0.05550038820826771,0.1371874376581962,0.15051138565118974,5000,6,True,True
+spei3,ridge_ar24,rolling_macro_mae_improvement_vs_persistence,0.09600495967372757,0.05434231954402106,0.1369120581360205,0.15051138565118974,5000,12,True,True
+spei3,ridge_ar24,rolling_macro_mae_improvement_vs_persistence,0.09600495967372757,0.05889294505995707,0.13031296231623643,0.15051138565118974,5000,24,True,True
+spei6,persistence,rolling_macro_mae_improvement_vs_persistence,0.0,0.0,0.0,0.0,5000,6,True,False
+spei6,persistence,rolling_macro_mae_improvement_vs_persistence,0.0,0.0,0.0,0.0,5000,12,True,False
+spei6,persistence,rolling_macro_mae_improvement_vs_persistence,0.0,0.0,0.0,0.0,5000,24,True,False
+spei6,ridge_ar24_met24,rolling_macro_mae_improvement_vs_persistence,0.10388370185185214,0.07367974931194973,0.13370565750173277,0.23607792287472174,5000,6,True,True
+spei6,ridge_ar24_met24,rolling_macro_mae_improvement_vs_persistence,0.10388370185185214,0.07646150852789223,0.1309009540430755,0.23607792287472174,5000,12,True,True
+spei6,ridge_ar24_met24,rolling_macro_mae_improvement_vs_persistence,0.10388370185185214,0.0792879023479219,0.12801030172760028,0.23607792287472174,5000,24,True,True

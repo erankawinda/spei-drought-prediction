@@ -1,0 +1,406 @@
+{
+  "selection_partition": "validation",
+  "targets": {
+    "spei3": {
+      "baseline_validation_mae": {
+        "monthly_climatology": 0.8520078435122294,
+        "persistence": 0.7045231253034062,
+        "seasonal_persistence": 1.183980692097632,
+        "zero": 0.8425057049324135
+      },
+      "candidate_scores_macro_validation_mae": {
+        "hgb_ar24_met24": [
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "macro_validation_mae": 0.5248411146154813,
+            "max_iter": 200,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 20
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "macro_validation_mae": 0.5238593821394802,
+            "max_iter": 200,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 40
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "macro_validation_mae": 0.5173846877550485,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "macro_validation_mae": 0.5218956444526025,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 40
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "macro_validation_mae": 0.5140520392868252,
+            "max_iter": 200,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 20
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "macro_validation_mae": 0.5166564941770235,
+            "max_iter": 200,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 40
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "macro_validation_mae": 0.5201300603974418,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "macro_validation_mae": 0.5210923746648586,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 40
+          }
+        ],
+        "ridge_ar24": [
+          {
+            "alpha": 0.0001,
+            "macro_validation_mae": 0.5591543907697974
+          },
+          {
+            "alpha": 0.001,
+            "macro_validation_mae": 0.55915435608658
+          },
+          {
+            "alpha": 0.01,
+            "macro_validation_mae": 0.5591540094884454
+          },
+          {
+            "alpha": 0.1,
+            "macro_validation_mae": 0.5591505668466721
+          },
+          {
+            "alpha": 1.0,
+            "macro_validation_mae": 0.5591280815367418
+          },
+          {
+            "alpha": 10.0,
+            "macro_validation_mae": 0.560101683531734
+          },
+          {
+            "alpha": 100.0,
+            "macro_validation_mae": 0.5787987192369892
+          },
+          {
+            "alpha": 1000.0,
+            "macro_validation_mae": 0.6869210123219842
+          }
+        ],
+        "ridge_ar24_met24": [
+          {
+            "alpha": 0.0001,
+            "macro_validation_mae": 0.6095231950673812
+          },
+          {
+            "alpha": 0.001,
+            "macro_validation_mae": 0.6094550737671981
+          },
+          {
+            "alpha": 0.01,
+            "macro_validation_mae": 0.6087861228292747
+          },
+          {
+            "alpha": 0.1,
+            "macro_validation_mae": 0.6030135188717782
+          },
+          {
+            "alpha": 1.0,
+            "macro_validation_mae": 0.5711012661337564
+          },
+          {
+            "alpha": 10.0,
+            "macro_validation_mae": 0.5161147287652815
+          },
+          {
+            "alpha": 100.0,
+            "macro_validation_mae": 0.49985901222538653
+          },
+          {
+            "alpha": 1000.0,
+            "macro_validation_mae": 0.6070009765733605
+          }
+        ],
+        "ridge_met24": [
+          {
+            "alpha": 0.0001,
+            "macro_validation_mae": 0.613546875095084
+          },
+          {
+            "alpha": 0.001,
+            "macro_validation_mae": 0.6134800751442478
+          },
+          {
+            "alpha": 0.01,
+            "macro_validation_mae": 0.612821104228599
+          },
+          {
+            "alpha": 0.1,
+            "macro_validation_mae": 0.6071074835437765
+          },
+          {
+            "alpha": 1.0,
+            "macro_validation_mae": 0.5753514940419571
+          },
+          {
+            "alpha": 10.0,
+            "macro_validation_mae": 0.5243308084715416
+          },
+          {
+            "alpha": 100.0,
+            "macro_validation_mae": 0.5266726500098536
+          },
+          {
+            "alpha": 1000.0,
+            "macro_validation_mae": 0.6734452162596076
+          }
+        ]
+      },
+      "chosen": {
+        "hgb_ar24_met24": {
+          "l2_regularization": 1.0,
+          "learning_rate": 0.05,
+          "macro_validation_mae": 0.5140520392868252,
+          "max_iter": 200,
+          "max_leaf_nodes": 7,
+          "min_samples_leaf": 20
+        },
+        "ridge_ar24": {
+          "alpha": 1.0,
+          "macro_validation_mae": 0.5591280815367418
+        },
+        "ridge_ar24_met24": {
+          "alpha": 100.0,
+          "macro_validation_mae": 0.49985901222538653
+        },
+        "ridge_met24": {
+          "alpha": 10.0,
+          "macro_validation_mae": 0.5243308084715416
+        }
+      }
+    },
+    "spei6": {
+      "baseline_validation_mae": {
+        "monthly_climatology": 0.798378710470438,
+        "persistence": 0.4783677687186702,
+        "seasonal_persistence": 1.1214231579744462,
+        "zero": 0.7806892494414144
+      },
+      "candidate_scores_macro_validation_mae": {
+        "hgb_ar24_met24": [
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "macro_validation_mae": 0.38499014915057267,
+            "max_iter": 200,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 20
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "macro_validation_mae": 0.38590785132920696,
+            "max_iter": 200,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 40
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "macro_validation_mae": 0.37600090036502926,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.03,
+            "macro_validation_mae": 0.38214568782451014,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 40
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "macro_validation_mae": 0.383109289960392,
+            "max_iter": 200,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 20
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "macro_validation_mae": 0.38199782465798515,
+            "max_iter": 200,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 40
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "macro_validation_mae": 0.38244536380443134,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20
+          },
+          {
+            "l2_regularization": 1.0,
+            "learning_rate": 0.05,
+            "macro_validation_mae": 0.3802178510823868,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 40
+          }
+        ],
+        "ridge_ar24": [
+          {
+            "alpha": 0.0001,
+            "macro_validation_mae": 0.40648406350188654
+          },
+          {
+            "alpha": 0.001,
+            "macro_validation_mae": 0.40648411788428335
+          },
+          {
+            "alpha": 0.01,
+            "macro_validation_mae": 0.40648466194194394
+          },
+          {
+            "alpha": 0.1,
+            "macro_validation_mae": 0.40649012576319943
+          },
+          {
+            "alpha": 1.0,
+            "macro_validation_mae": 0.4065702590122835
+          },
+          {
+            "alpha": 10.0,
+            "macro_validation_mae": 0.40865241624679755
+          },
+          {
+            "alpha": 100.0,
+            "macro_validation_mae": 0.4347141786488335
+          },
+          {
+            "alpha": 1000.0,
+            "macro_validation_mae": 0.5446054351909372
+          }
+        ],
+        "ridge_ar24_met24": [
+          {
+            "alpha": 0.0001,
+            "macro_validation_mae": 0.44139933650159024
+          },
+          {
+            "alpha": 0.001,
+            "macro_validation_mae": 0.44134005163271084
+          },
+          {
+            "alpha": 0.01,
+            "macro_validation_mae": 0.44075439066540906
+          },
+          {
+            "alpha": 0.1,
+            "macro_validation_mae": 0.43563223937001566
+          },
+          {
+            "alpha": 1.0,
+            "macro_validation_mae": 0.41003989555160464
+          },
+          {
+            "alpha": 10.0,
+            "macro_validation_mae": 0.3685670761752615
+          },
+          {
+            "alpha": 100.0,
+            "macro_validation_mae": 0.362002164999494
+          },
+          {
+            "alpha": 1000.0,
+            "macro_validation_mae": 0.45927814174269105
+          }
+        ],
+        "ridge_met24": [
+          {
+            "alpha": 0.0001,
+            "macro_validation_mae": 0.4587909807437418
+          },
+          {
+            "alpha": 0.001,
+            "macro_validation_mae": 0.4587287129966657
+          },
+          {
+            "alpha": 0.01,
+            "macro_validation_mae": 0.45811285912079697
+          },
+          {
+            "alpha": 0.1,
+            "macro_validation_mae": 0.4529224966790471
+          },
+          {
+            "alpha": 1.0,
+            "macro_validation_mae": 0.42898492106641434
+          },
+          {
+            "alpha": 10.0,
+            "macro_validation_mae": 0.39234130609291756
+          },
+          {
+            "alpha": 100.0,
+            "macro_validation_mae": 0.38681008601846156
+          },
+          {
+            "alpha": 1000.0,
+            "macro_validation_mae": 0.565572938423243
+          }
+        ]
+      },
+      "chosen": {
+        "hgb_ar24_met24": {
+          "l2_regularization": 1.0,
+          "learning_rate": 0.03,
+          "macro_validation_mae": 0.37600090036502926,
+          "max_iter": 200,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20
+        },
+        "ridge_ar24": {
+          "alpha": 0.0001,
+          "macro_validation_mae": 0.40648406350188654
+        },
+        "ridge_ar24_met24": {
+          "alpha": 100.0,
+          "macro_validation_mae": 0.362002164999494
+        },
+        "ridge_met24": {
+          "alpha": 100.0,
+          "macro_validation_mae": 0.38681008601846156
+        }
+      }
+    }
+  },
+  "test_partition_used_for_selection": false
+}

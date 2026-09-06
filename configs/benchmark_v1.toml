@@ -1,0 +1,42 @@
+[data]
+source_dir = "data/processed/legacy"
+
+[data.station_files]
+Buttala = "Buttala_speiall.csv"
+Padaviya = "Padaviya_speiall.csv"
+Tissamaharama = "Tissamaharama_speiall.csv"
+
+[data.source_sha256]
+Buttala = "b2646f772f521e270d6f47e593ac70653d56548fcfca932058609b153b4f0061"
+Padaviya = "f82b2efb1c9d56a73b0b87f59adbcc1f4801810c0db96bee35f46280e539c337"
+Tissamaharama = "dabfe80857c0bd35da7f83f6a49b3a2b6295a6c2392aa4b33ebb0d347116a254"
+
+[experiment]
+targets = ["spei3", "spei6"]
+meteorological_features = [
+  "cloud_cover",
+  "mean_prep",
+  "pot_evap",
+  "mean_tmp",
+  "diurnal_tmp_range",
+  "vapour_pressure",
+  "wet_day_frq",
+]
+history_months = 24
+horizon_months = 1
+train_end = "1984-12"
+validation_end = "1999-12"
+test_end = "2019-12"
+random_seed = 42
+
+[models]
+ridge_alphas = [0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]
+hgb_learning_rates = [0.03, 0.05]
+hgb_max_iters = [200]
+hgb_max_leaf_nodes = [7, 15]
+hgb_min_samples_leaf = [20, 40]
+hgb_l2_regularization = [1.0]
+
+[uncertainty]
+resamples = 5000
+block_months = 12

@@ -1,0 +1,5 @@
+target,model,primary_model_context,calibration_for,decision_threshold,macro_validation_f1,worst_station_validation_f1,macro_validation_balanced_accuracy,eligible,alpha_frozen_from_regression_selection,selected_on,test_labels_used_for_selection
+spei3,ridge_ar24,ridge_ar24,model,-0.4,0.5771057445943704,0.5376344086021505,0.7816836780374251,True,1.0,validation_only_1985-01_1999-12,False
+spei3,persistence,ridge_ar24,persistence,-0.8,0.502193883205873,0.4827586206896552,0.7082158205748051,True,,validation_only_1985-01_1999-12,False
+spei6,ridge_ar24_met24,ridge_ar24_met24,model,-0.7,0.7413401546720211,0.7157894736842104,0.8473628534869508,True,100.0,validation_only_1985-01_1999-12,False
+spei6,persistence,ridge_ar24_met24,persistence,-0.8,0.6960138997604308,0.6808510638297872,0.827010866888951,True,,validation_only_1985-01_1999-12,False

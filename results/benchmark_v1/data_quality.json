@@ -1,0 +1,309 @@
+{
+  "rules": {
+    "excluded_redundant_columns": [
+      "max_tmp",
+      "min_tmp"
+    ],
+    "excluded_unverified_evaporation_total": [
+      "pet"
+    ],
+    "fill_or_interpolation_applied": false,
+    "model_temperature_columns": [
+      "mean_tmp",
+      "diurnal_tmp_range"
+    ],
+    "outlier_deletion_or_winsorization_applied": false,
+    "raw_sources_modified": false,
+    "source_hashes_match_frozen_manifest": true
+  },
+  "source_files": [
+    {
+      "path": "data/processed/legacy/Buttala_speiall.csv",
+      "rows": 1428,
+      "sha256": "b2646f772f521e270d6f47e593ac70653d56548fcfca932058609b153b4f0061",
+      "station": "Buttala"
+    },
+    {
+      "path": "data/processed/legacy/Padaviya_speiall.csv",
+      "rows": 1428,
+      "sha256": "f82b2efb1c9d56a73b0b87f59adbcc1f4801810c0db96bee35f46280e539c337",
+      "station": "Padaviya"
+    },
+    {
+      "path": "data/processed/legacy/Tissamaharama_speiall.csv",
+      "rows": 1428,
+      "sha256": "dabfe80857c0bd35da7f83f6a49b3a2b6295a6c2392aa4b33ebb0d347116a254",
+      "station": "Tissamaharama"
+    }
+  ],
+  "stations": {
+    "Buttala": {
+      "duplicate_months": 0,
+      "first_month": "1901-01",
+      "last_month": "2019-12",
+      "missing_targets": {
+        "spei1": 0,
+        "spei12": 11,
+        "spei3": 2,
+        "spei6": 5,
+        "spei9": 8
+      },
+      "physical_checks": {
+        "cloud_cover_0_100": true,
+        "nonnegative_diurnal_range": true,
+        "nonnegative_pet": true,
+        "nonnegative_potential_evaporation": true,
+        "nonnegative_precipitation": true,
+        "positive_vapour_pressure": true,
+        "temperature_order": true,
+        "wet_days_within_month": true
+      },
+      "ranges": {
+        "cloud_cover": {
+          "max": 84.9,
+          "min": 30.3
+        },
+        "diurnal_tmp_range": {
+          "max": 9.4,
+          "min": 5.4
+        },
+        "max_tmp": {
+          "max": 32.3,
+          "min": 27.1
+        },
+        "mean_prep": {
+          "max": 816.8,
+          "min": 0.2
+        },
+        "mean_tmp": {
+          "max": 28.4,
+          "min": 23.5
+        },
+        "min_tmp": {
+          "max": 25.0,
+          "min": 19.3
+        },
+        "pet": {
+          "max": 151.449840760752,
+          "min": 100.513997358552
+        },
+        "pot_evap": {
+          "max": 5.2,
+          "min": 3.1
+        },
+        "spei1": {
+          "max": 2.62416411201842,
+          "min": -2.49308159960788
+        },
+        "spei12": {
+          "max": 2.59101896372428,
+          "min": -2.98146989251993
+        },
+        "spei3": {
+          "max": 2.58442444090521,
+          "min": -2.4830450004679
+        },
+        "spei6": {
+          "max": 2.50607375616472,
+          "min": -2.50076696987435
+        },
+        "spei9": {
+          "max": 2.39823291327114,
+          "min": -2.41480993286246
+        },
+        "vapour_pressure": {
+          "max": 30.4,
+          "min": 21.8
+        },
+        "wet_day_frq": {
+          "max": 21.87,
+          "min": 0.02
+        }
+      },
+      "rows": 1428,
+      "temperature_redundancy": {
+        "dtr_equals_max_minus_min": true,
+        "mean_midpoint_max_abs_error": 0.05000000000000426
+      }
+    },
+    "Padaviya": {
+      "duplicate_months": 0,
+      "first_month": "1901-01",
+      "last_month": "2019-12",
+      "missing_targets": {
+        "spei1": 0,
+        "spei12": 11,
+        "spei3": 2,
+        "spei6": 5,
+        "spei9": 8
+      },
+      "physical_checks": {
+        "cloud_cover_0_100": true,
+        "nonnegative_diurnal_range": true,
+        "nonnegative_pet": true,
+        "nonnegative_potential_evaporation": true,
+        "nonnegative_precipitation": true,
+        "positive_vapour_pressure": true,
+        "temperature_order": true,
+        "wet_days_within_month": true
+      },
+      "ranges": {
+        "cloud_cover": {
+          "max": 81.2,
+          "min": 23.4
+        },
+        "diurnal_tmp_range": {
+          "max": 9.6,
+          "min": 3.4
+        },
+        "max_tmp": {
+          "max": 35.2,
+          "min": 27.1
+        },
+        "mean_prep": {
+          "max": 707.9,
+          "min": 0.1
+        },
+        "mean_tmp": {
+          "max": 31.2,
+          "min": 24.7
+        },
+        "min_tmp": {
+          "max": 27.5,
+          "min": 21.4
+        },
+        "pet": {
+          "max": 157.061507527163,
+          "min": 74.410792849389
+        },
+        "pot_evap": {
+          "max": 5.4,
+          "min": 3.1
+        },
+        "spei1": {
+          "max": 2.47797202039236,
+          "min": -2.72879917242017
+        },
+        "spei12": {
+          "max": 2.55425310167657,
+          "min": -2.63974519550692
+        },
+        "spei3": {
+          "max": 2.86275412645762,
+          "min": -2.78893273711209
+        },
+        "spei6": {
+          "max": 2.77580144085432,
+          "min": -2.70675375424668
+        },
+        "spei9": {
+          "max": 2.83265960988234,
+          "min": -2.57775514358759
+        },
+        "vapour_pressure": {
+          "max": 32.5,
+          "min": 23.4
+        },
+        "wet_day_frq": {
+          "max": 24.22,
+          "min": 0.01
+        }
+      },
+      "rows": 1428,
+      "temperature_redundancy": {
+        "dtr_equals_max_minus_min": true,
+        "mean_midpoint_max_abs_error": 0.05000000000000426
+      }
+    },
+    "Tissamaharama": {
+      "duplicate_months": 0,
+      "first_month": "1901-01",
+      "last_month": "2019-12",
+      "missing_targets": {
+        "spei1": 0,
+        "spei12": 11,
+        "spei3": 2,
+        "spei6": 5,
+        "spei9": 8
+      },
+      "physical_checks": {
+        "cloud_cover_0_100": true,
+        "nonnegative_diurnal_range": true,
+        "nonnegative_pet": true,
+        "nonnegative_potential_evaporation": true,
+        "nonnegative_precipitation": true,
+        "positive_vapour_pressure": true,
+        "temperature_order": true,
+        "wet_days_within_month": true
+      },
+      "ranges": {
+        "cloud_cover": {
+          "max": 84.8,
+          "min": 30.8
+        },
+        "diurnal_tmp_range": {
+          "max": 8.1,
+          "min": 5.2
+        },
+        "max_tmp": {
+          "max": 32.8,
+          "min": 28.3
+        },
+        "mean_prep": {
+          "max": 523.4,
+          "min": 0.0
+        },
+        "mean_tmp": {
+          "max": 29.4,
+          "min": 24.7
+        },
+        "min_tmp": {
+          "max": 26.3,
+          "min": 20.9
+        },
+        "pet": {
+          "max": 144.050207502209,
+          "min": 101.352886897382
+        },
+        "pot_evap": {
+          "max": 5.4,
+          "min": 3.3
+        },
+        "spei1": {
+          "max": 2.70868833183325,
+          "min": -2.45734862499216
+        },
+        "spei12": {
+          "max": 2.48575007723203,
+          "min": -2.95365333332632
+        },
+        "spei3": {
+          "max": 2.60791569156326,
+          "min": -2.53049239875508
+        },
+        "spei6": {
+          "max": 2.41210463589636,
+          "min": -2.51982591312503
+        },
+        "spei9": {
+          "max": 2.59049057374685,
+          "min": -2.50674275380628
+        },
+        "vapour_pressure": {
+          "max": 32.1,
+          "min": 23.5
+        },
+        "wet_day_frq": {
+          "max": 18.01,
+          "min": 0.33
+        }
+      },
+      "rows": 1428,
+      "temperature_redundancy": {
+        "dtr_equals_max_minus_min": true,
+        "mean_midpoint_max_abs_error": 0.05000000000000426
+      }
+    }
+  },
+  "total_rows": 4284
+}

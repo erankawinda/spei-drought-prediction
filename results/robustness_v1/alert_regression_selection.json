@@ -1,0 +1,94 @@
+{
+  "selection_partition": "validation",
+  "targets": {
+    "spei3": {
+      "candidate_scores_macro_validation_mae": {
+        "ridge_ar24": [
+          {
+            "alpha": 0.0001,
+            "macro_validation_mae": 0.5591543907697974
+          },
+          {
+            "alpha": 0.001,
+            "macro_validation_mae": 0.55915435608658
+          },
+          {
+            "alpha": 0.01,
+            "macro_validation_mae": 0.5591540094884454
+          },
+          {
+            "alpha": 0.1,
+            "macro_validation_mae": 0.5591505668466721
+          },
+          {
+            "alpha": 1.0,
+            "macro_validation_mae": 0.5591280815367418
+          },
+          {
+            "alpha": 10.0,
+            "macro_validation_mae": 0.560101683531734
+          },
+          {
+            "alpha": 100.0,
+            "macro_validation_mae": 0.5787987192369892
+          },
+          {
+            "alpha": 1000.0,
+            "macro_validation_mae": 0.6869210123219842
+          }
+        ]
+      },
+      "chosen": {
+        "ridge_ar24": {
+          "alpha": 1.0,
+          "macro_validation_mae": 0.5591280815367418
+        }
+      }
+    },
+    "spei6": {
+      "candidate_scores_macro_validation_mae": {
+        "ridge_ar24_met24": [
+          {
+            "alpha": 0.0001,
+            "macro_validation_mae": 0.44139933650159024
+          },
+          {
+            "alpha": 0.001,
+            "macro_validation_mae": 0.44134005163271084
+          },
+          {
+            "alpha": 0.01,
+            "macro_validation_mae": 0.44075439066540906
+          },
+          {
+            "alpha": 0.1,
+            "macro_validation_mae": 0.43563223937001566
+          },
+          {
+            "alpha": 1.0,
+            "macro_validation_mae": 0.41003989555160464
+          },
+          {
+            "alpha": 10.0,
+            "macro_validation_mae": 0.3685670761752615
+          },
+          {
+            "alpha": 100.0,
+            "macro_validation_mae": 0.362002164999494
+          },
+          {
+            "alpha": 1000.0,
+            "macro_validation_mae": 0.45927814174269105
+          }
+        ]
+      },
+      "chosen": {
+        "ridge_ar24_met24": {
+          "alpha": 100.0,
+          "macro_validation_mae": 0.362002164999494
+        }
+      }
+    }
+  },
+  "test_partition_used_for_selection": false
+}
